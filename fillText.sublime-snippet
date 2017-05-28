@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+fillText(${1:text: Any}, ${2:x: Int}, ${3:y: Int});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fillText</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

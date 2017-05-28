@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>${1:Title}</title>
+
+	<style type="text/css">
+		body {
+			margin: 0;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+	<canvas></canvas>
+	<script src="compiled-js/${2:}.js" type="text/javascript"></script> 
+</body>
+</html>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>canvashtml</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.html</scope> -->
+</snippet>

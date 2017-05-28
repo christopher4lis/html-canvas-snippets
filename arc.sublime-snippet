@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+arc(${1:x: Int}, ${2:y: Int}, ${3:r: Int}, ${4:startAngle: Float}, ${5:endAngle: Float}, ${6:drawCounterClockwise: Bool (false)});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>arc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
